@@ -4,7 +4,6 @@
 * ```=``` is for assignment only
 * ```var``` is for declaration only
 * ```const``` is for constant declaration
-* ```iota``` is for enumeration
 * ```_``` is for blank identifier
 * ```&``` is for address of operator
 * ```*``` is for pointer dereference operator
