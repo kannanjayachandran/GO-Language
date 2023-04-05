@@ -18,4 +18,4 @@ Channels are the pipes that connect concurrent goroutines. You can send values i
 
 - We can use the ```close``` function to close a channel.
 
-By default the channel is unbuffered, meaning that it will only accept sends (chan <-) if there is a corresponding receive (<- chan) ready to receive the sent value. Buffered channels accept a limited number of values without a corresponding receiver for those values.
+By default the channel is un-buffered, meaning that it will only accept sends (chan <-) if there is a corresponding receive (<- chan) ready to receive the sent value. Buffered channels accept a limited number of values without a corresponding receiver for those values.
