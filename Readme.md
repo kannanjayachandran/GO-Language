@@ -201,10 +201,23 @@ func main() {
 }
 ```
 
-**Go routines**
+**Pointers and references**
 
+```go
+var myInt int = 42
+var myIntPointer *int = &myInt
+fmt.Println(*myIntPointer) // 42
+```
+
+Pointers and dereferencing in go is similar to other languages, but go does not support pointer arithmetic.
+
+**Go routines and Concurrency in Go**
+
+Go is famous for its superior concurrency support. Go routines are lightweight threads. They are not OS threads. They are managed by the go runtime. They are multiplexed onto OS threads. They are cheap to create and destroy and are not preemptive. They are cooperative. Unlike python we not limited by the GIL. We can run as many go routines as we want. Although the routines may not always run in parallel, but they could. We can use the `go` keyword to create a go routine. We can use the `sync` package to synchronize go routines.
 
 **Channels**
+
+Go routines becomes truly powerful when we use them with channels. Channels are a way to communicate between go routines. They are used to synchronize go routines.
 
 
 ## Go Project Structure
