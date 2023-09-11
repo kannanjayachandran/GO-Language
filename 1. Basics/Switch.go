@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	a := 10
 
 	// normal switch statement
@@ -17,6 +18,7 @@ func main() {
 		fmt.Println("Default switch")
 	}
 
+	// switch with passthrough
 	switch {
 	case 1 < 2:
 		fmt.Println("Hello GO")
@@ -29,5 +31,4 @@ func main() {
 		fmt.Println("null")
 
 	}
-
 }

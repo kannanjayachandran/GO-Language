@@ -6,11 +6,13 @@ import (
 
 func main() {
 
+	// for loop
 	fmt.Println("For loop")
 	for i := 1; i <= 10; i++ {
 		fmt.Println(i)
 	}
 
+	// while loop
 	fmt.Println("While loop")
 	x := 10
 	for x > 0 {
@@ -26,7 +28,8 @@ func main() {
 	}
 
 	// for each
-	for i, char := range str {
-		fmt.Println(i, string(char))
+	sentence := "This is a sentence."
+	for _, char := range sentence {
+		fmt.Println(string(char))
 	}
 }

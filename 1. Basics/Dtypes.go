@@ -30,6 +30,7 @@ func main() {
 	var isTrue bool = true
 	var isFalse bool = false
 	fmt.Println("Boolean values:\t", isTrue, isFalse)
+	fmt.Printf("a = %v, b = %v, a == b = %v\n", isTrue, isFalse, isTrue == isFalse)
 
 	// Char and string
 	var letter byte = 'K'
@@ -42,5 +43,4 @@ func main() {
 	y := "This is implicit assignment."
 
 	fmt.Println(x, y)
-
 }
