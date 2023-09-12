@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -21,5 +23,4 @@ func main() {
 	fmt.Println("Enter your name :")
 	fmt.Scan(&name)
 	fmt.Println("Your name is :", name)
-
 }
