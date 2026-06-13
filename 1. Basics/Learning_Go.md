@@ -16,4 +16,6 @@
 14. [Error Handling](./Error_Handling.go)
 15. [Pointers](./Pointers.go)
 
+- [Basic go routine and channel example](./pizzaShop.go)
+
 
